@@ -111,7 +111,7 @@ class Source:
             "__EVENTVALIDATION": event_validation["value"] if event_validation else "",
             "ctl00$MainContent$txtStreetNo": self._street_number,
             "ctl00$MainContent$txtStreet": self._street_name,
-            "ctl00$MainContent$btnSearch": "Submit",
+            "ctl00$MainContent$btnSubmit": "Submit",
         }
 
         # Step 2: POST to get the collection area
